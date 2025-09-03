@@ -1,4 +1,6 @@
 # Konig_Fluo_Signal_Quant_BBB_Microvascular_networks
+[![DOI](https://zenodo.org/badge/1049791215.svg)](https://doi.org/10.5281/zenodo.17047899)
+
 This repository provides scripts written in the ImageJ macro language for quantitative analysis of fluorescence intensity within microvascular networks. The macros enable location-dependent measurements, allowing users to compare fluorescence signals in vascular versus non-vascular regions. 
 
 The input is a .tif confocal image stack with 2 channels: (1) BMEC vasculature network labelled with GFP/other marker, (2) fluorescence signal to quantify. The user should select a folder with all the .tif stacks to analyse. The macro automatically saves csv files with the intensity values and a stack .tif file of the signal within the defined microvasculature outline.
